@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+<div class="form-wrapper">
+    <div class="form">
+        <div class="title">Login page</div>
+        <form action="/login" class="inputs" method="post">
+            <div class="input-wrapper">
+                <label for="email" class="label">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email" class="input">
+            </div>
+            <div class="input-wrapper">
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" class="input">
+            </div>
+            <input type="submit" id="send" value="Login" class="button">
+        </form>
+    </div>
+</div>
+</body>
+</html>
